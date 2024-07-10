@@ -7,4 +7,4 @@
 1. 理解每项数据对应的意义（共35列）                                 ???给数据重新排序???
 2. 导入pandas库，使用pandas.dataframe进行数据预处理，
 3. 挑选使用什么深度学习模型，可应用的库有：pytorch，skorch，rapids（需要gpu）
-4. 
+4. 数据可视化 e.g. 可以利用PowerBI等工具
