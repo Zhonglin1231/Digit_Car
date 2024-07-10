@@ -8,3 +8,4 @@
 2. 导入pandas库，使用pandas.dataframe进行数据预处理，
 3. 挑选使用什么深度学习模型，可应用的库有：pytorch，skorch，rapids（需要gpu）
 4. 数据可视化 e.g. 可以利用PowerBI等工具
+5. 数据库已搭好，有需要可以找我进行数据提供嘿嘿
