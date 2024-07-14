@@ -1,4 +1,4 @@
-# Digit_Car  
+![image](https://github.com/user-attachments/assets/d271dfc9-d38c-4733-ae76-161bf4c9b302)# Digit_Car  
 
 文档网址：<a>https://docs.google.com/document/d/1b4HSeOz6ZN32ci0nwz9XZIQ9KGd4uulIEMhqYx1wtA4/edit </a>  
 阿里云数据库：<a>https://dms.aliyun.com/new#shared=fdd970ff-18cd-40a8-9521-31b915c497d9</a>  
@@ -30,6 +30,13 @@ soc: 剩余百分比电量（不准的，因为电量会衰减）
 **剩余里程计算**
 1. 使用SOC估算剩余里程
    * SOC (State of Charge) 表示电池的剩余电量百分比。结合电池的总电量（power_amount），可以估算剩余的电量，从而计算出剩余里程。
+   * SoC计算：
+       * 方法一：通过积分 （Coulomb Counting Method）
+           * ![image](https://github.com/user-attachments/assets/bcbab659-1dfa-499c-bccc-cd8a53f5d769)
+
+       * 方法二：通过与电压的关系预测
+           * ![image](https://github.com/user-attachments/assets/4eaeca6b-8eb5-4501-885c-9b0bd185619c)
+
 2. 假设电池电量与续驶里程之间的线性关系
    * 我们可以假设在特定工况下，电池电量与续驶里程之间存在线性关系。通过已知的总电量和工况续驶里程，可以推算出单位电量对应的续驶里程。
 3. 计算公式
